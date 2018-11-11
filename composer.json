@@ -1,0 +1,23 @@
+{
+  "name" : "alexjumperman/doctrinetemptable",
+  "description" : "Doctrine 2 temp table extension",
+  "type" : "symfony-bundle",
+  "keywords" : ["page", "page bundle"],
+  "authors" : [{
+    "name" : "Alexey Skachok",
+    "email" : "alex.jumperman@gmail.com"
+  }],
+  "require" : {
+    "php": ">=5.5.9",
+    "doctrine/doctrine-bundle": "^1.8",
+    "doctrine/orm": "^2.5"
+  },
+  "autoload" : {
+    "psr-4" : { "AlexJumperman\\TempTableBundle\\" : "" }
+  },
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "1.0.x-dev"
+    }
+  }
+}

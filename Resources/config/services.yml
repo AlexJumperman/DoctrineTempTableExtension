@@ -1,0 +1,4 @@
+services:
+    alex_jumperman_temp_table.factory:
+        class: AlexJumperman\TempTableBundle\DependencyInjection\TempTableFactory
+        arguments: ['@doctrine.orm.entity_manager']
